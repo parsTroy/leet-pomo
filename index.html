@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hacker Pomodoro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="terminal">
+    <h1 class="title">[ POMODORO ]</h1>
+    <div id="timer">25:00</div>
+    <div id="progress-bar">[-------------------------]</div>
+    <div class="controls">
+      <button id="start">START</button>
+      <button id="reset">RESET</button>
+      <button id="sound-toggle">SOUND: ON</button>
+    </div>
+    <footer>_status: <span id="status" class="typewriter">idle</span></footer>
+    <audio id="beep" src="assets/beep.mp3" preload="auto"></audio>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
