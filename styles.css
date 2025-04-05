@@ -72,3 +72,48 @@ body {
     50% { border-color: #00FF00; }
   }
   
+  .break-controls {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+  }
+  
+  .break-controls button {
+    background: none;
+    border: 2px solid #00FF00;
+    color: #00FF00;
+    padding: 0.25rem 0.75rem;
+    margin: 0 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .break-controls button:hover {
+    background-color: #00FF00;
+    color: #000;
+  }
+  
+  .break-controls input {
+    background: none;
+    border: 2px solid #00FF00;
+    color: #00FF00;
+    width: 50px;
+    padding: 0.25rem;
+    margin: 0 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+  }
+  
+  .break-controls input::-webkit-inner-spin-button,
+  .break-controls input::-webkit-outer-spin-button {
+    opacity: 1;
+  }
+  
+  .break-controls #break-duration {
+    display: inline-block;
+    min-width: 30px;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+  }
+  
